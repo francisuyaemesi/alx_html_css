@@ -313,7 +313,11 @@
   .section {
     padding: var(--section-padding);
   }
-  
+
+  .section-services{
+    
+  }
+
   .section-header {
     text-align: var(--section-header-align);
     padding: var(--section-header-padding);
@@ -372,6 +376,11 @@
     padding: 10rem 40rem 2rem 0;
   }
   
+  /* Section Latest news ============================= */
+  .section-latest-news .row {
+    flex-direction: row-reverse;
+  }
+
   /*** 4. CARD ***/
   
   /* Card (all styles)
@@ -382,7 +391,7 @@
   }
   
   /* Card WORK
-      ============================= */
+      ============================= */    
   
   .card-work .card-outer {
     position: relative;
@@ -449,6 +458,7 @@
   /* Card SERVICES
       ============================= */
   
+
   .card-services .card-title {
     margin: 0;
   }
