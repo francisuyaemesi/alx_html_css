@@ -125,7 +125,7 @@ button{
     line-height: normal;
 }
 
-img{
+.personpic{
     border-radius: 5rem;
 }
 
@@ -172,4 +172,128 @@ img{
 
 .persontitle{
     font-weight: thin;
+}
+
+.tutorials{
+    padding: 4rem;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.tutorials h2{
+    color: #071629;
+    text-align: center;
+    font-family: Source Sans Pro;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.tutsectionindividual{
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin: 4rem;
+}
+
+.tutbanner1{
+    width: 20rem;
+    height: 10rem;
+    background-image: url("images/9.png");
+    background-attachment: scroll;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.5rem 0.5rem 0rem 0rem;
+    margin-bottom: 1rem;
+}
+.tutbanner2{
+    width: 20rem;
+    height: 10rem;
+    background-image: url("images/7.png");
+    background-attachment: scroll;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.5rem 0.5rem 0rem 0rem;
+    margin-bottom: 1rem;
+}
+.tutbanner3{
+    width: 20rem;
+    height: 10rem;
+    background-image: url("images/8.png");
+    background-attachment: scroll;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.5rem 0.5rem 0rem 0rem;
+    margin-bottom: 1rem;
+}
+.tutbanner4{
+    width: 20rem;
+    height: 10rem;
+    background-image: url("images/6.png");
+    background-attachment: scroll;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.5rem 0.5rem 0rem 0rem;
+    margin-bottom: 1rem;
+}
+
+.tutpersonface{
+    display: flex;
+    gap: 0.5rem;
+    color: #C271FF;
+    margin: 1rem auto;
+    align-items: center;
+}
+
+.tutpersonface img{
+    width: 2rem;
+    height: 2rem;
+}
+
+.tutrating{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #C271FF;
+}
+
+.tutcontent h3{
+    font-family: Source Sans Pro;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+}
+.tutcontent{
+    font-family: Source Sans Pro;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
 }
