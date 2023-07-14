@@ -175,7 +175,7 @@ button{
 }
 
 .tutorials{
-    padding: 4rem;
+    padding: 2rem;
     display: flex;
     flex-flow: column wrap;
     justify-content: center;
@@ -195,11 +195,12 @@ button{
 
 .tutsectionindividual{
     display: flex;
-    gap: 2rem;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-    margin: 4rem;
+    gap: 1rem;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    align-items: space-evenly;
+    align-content: space-evenly;
+    margin: 2rem;
 }
 
 .tutbanner1{
@@ -296,4 +297,8 @@ button{
     font-style: normal;
     font-weight: 400;
     line-height: 24px;
+}
+
+.tutsection{
+    max-width: 20rem;
 }
