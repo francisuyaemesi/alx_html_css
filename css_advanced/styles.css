@@ -104,7 +104,7 @@ button{
     font-weight: 600;
     line-height: normal;
     padding: 1em 1em 1em;
-    margin-bottom: 10rem;
+    margin-bottom: 3rem;
 }
 
 .dualcolor{
@@ -301,4 +301,29 @@ button{
 
 .tutsection{
     max-width: 20rem;
+}
+
+.membership{
+    background-color: #071629;
+    padding: 2rem;
+    display: flex;
+    flex-flow: column ;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #FFF;
+}
+
+.membership h2{
+    font-size: 2rem;
+    margin-top: 1rem;
+}
+
+.membershipfeatures{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    margin: 3rem;
+    gap: 2rem;
 }
