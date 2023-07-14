@@ -327,3 +327,38 @@ button{
     margin: 3rem;
     gap: 2rem;
 }
+
+.faq{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    text-align: center;
+    padding: 3rem;
+}
+
+.faqsection{
+    display: flex;
+    flex-flow: row nowrap;
+    max-width: 85rem;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+
+footer{
+    background-color: #071629;
+    display: flex;
+    padding: 3rem;
+    flex-flow: column wrap;
+    color: #FFF;
+    text-align: center;
+}
+
+.footsection{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    margin: 3rem;
+}
